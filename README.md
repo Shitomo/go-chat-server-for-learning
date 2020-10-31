@@ -1,14 +1,9 @@
 # go-chat-server-for-learning
-**## はじめに**
 
-GolangとReactでチャットアプリを作るチュートリアルです．
+install all package
 
-Reactで作ったフロントエンドから，WebSocketを使ってGo製のサーバーにメッセージを送ったり，最新のメッセージを受信したりするチャットサーバーを作ります．
+``` npm install```
 
-**## フロントエンド**
+start react app
 
-Reactで作ります．
-
-メッセージを送るためのテキストボックス，チャットログを持ちます．
-
-App.tsxの状態でウェブソケットを管理して，ユーザー情報の入力，チャットの入力，チャットログの閲覧を可能にする．
+``` npm start ```
